@@ -1,0 +1,22 @@
+CREATE TABLE Bike_Store (id integer primary key, name text, price integer, color text, style text);
+
+INSERT INTO Bike_Store VALUES (1, "Giant Contend AR Disc 3", 1500, "orange", "road");
+
+INSERT INTO Bike_Store VALUES (2, "Cannondale Topstone Carbon Lefty 3", 1400, "green", "road");
+INSERT INTO Bike_Store VALUES (3, "Santa Cruz Tall Boy", 2000, "gray", "mountain");
+INSERT INTO Bike_Store VALUES (4, "Giant Escape 2", 3000, "red", "commuter");
+INSERT INTO Bike_Store VALUES (5, "Momentum Lafree E+", 2600, "black", "electric");
+INSERT INTO Bike_Store VALUES (6, "Liv Alight Disc", 3456, "white", "commuter");
+INSERT INTO Bike_Store VALUES (7, "Retrospec Harper", 1567, "black", "fixed gear");
+INSERT INTO Bike_Store VALUES (8, "Beaumont City Bike", 2345, "green", "commuter");
+INSERT INTO Bike_Store VALUES (9, "Trek Madone", 2312, "red", "road");
+INSERT INTO Bike_Store VALUES (10, "Trek Checkpoint", 1000, "grey", "road");
+INSERT INTO Bike_Store VALUES (11, "Trek Domane", 1345, "biege", "road");
+INSERT INTO Bike_Store VALUES (12, "Fuji Sportif", 3234, "white", "road");
+INSERT INTO Bike_Store VALUES (13, "KHS Flight", 4000, "black", "road");
+INSERT INTO Bike_Store VALUES (14, "Cannondale synapse", 3546, "blue", "road");
+INSERT INTO Bike_Store VALUES (15, "Haro Beasley", 500, "black", "hybrid");
+
+SELECT * FROM Bike_Store ORDER BY price;
+
+SELECT * FROM Bike_Store Where price >2000 Order BY price;
